@@ -1,0 +1,170 @@
+.main_container {
+    width: min(100%, 1244px);
+    margin: auto;
+}
+
+.header {
+    width: 100%;
+    background-color: white;
+}
+
+.main_nav {
+    width: min(100%, 1244px);
+    margin: auto;
+    background-color: white;
+    padding-top: 52px;
+    padding-bottom: 52px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main_nav_ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main_nav_li {
+    margin-inline: 50px;
+    /* margin sxvanairad ver vkeni :( */
+}
+
+.logo {
+    font-family: 'Ubuntu', sans-serif;
+    color: #27187F;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.logo_text_port {
+    color: #758BFD;
+}
+
+.main_nav_a_active {
+    color: #27187F;
+    font-size: 24px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    word-wrap: break-word
+}
+
+.main_nav_a_no_active {
+    color: #758BFD;
+    font-size: 24px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    word-wrap: break-word
+}
+
+.fa-magnifying-glass {
+    color: #758BFD;
+    width: calc(221 / 1244 * 100%);
+    height: 56px;
+    display: flex;
+    align-items: center;
+}
+
+.search {
+    width: calc(221 / 1244 * 100%);
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.section {
+    width: 100%;
+    background-color: #DDEAF8;
+    padding-top: 115px;
+    padding-bottom: 115px;
+}
+
+.section_title {
+    color: #27187F;
+    font-size: 32px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    word-wrap: break-word;
+    margin-bottom: 68px;
+    width: 100%;
+
+}
+
+.cards {
+    width: min(100%, 1244px);
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.the_card {
+    width: calc(340 / 1244 * 100%);
+    padding: 33px 30px 33px 30px;
+    background-color: white;
+    margin-bottom: 51px;
+    border-radius: 10px;
+}
+
+.the_card_img {
+    width: 100%;
+    height: 188px;
+    border-radius: 10px;
+    /* fotos margin-botom ratom akvs??? */
+}
+
+.the_card_title {
+    color: #133B3A;
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    word-wrap: break-word;
+    margin-top: 33px;
+}
+
+.footer {
+    padding: 75px 98px 75px 98px;
+    background-color: #758BFD;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact_info {
+    color: #00CAD7;
+    font-size: 20px;
+    font-family: 'Gothic A1', sans-serif;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0.20px;
+    word-wrap: break-word;
+    margin-bottom: 21px;
+}
+
+.contact_info_p {
+    color: white;
+    font-size: 13px;
+    font-family: 'Gothic A1', sans-serif;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0.20px;
+    word-wrap: break-word;
+}
+
+.footer i {
+    color: white;
+    width: 22px;
+    height: 22px;
+    margin-top: 22px;
+    /* ver vucvli zomebs magram mainc davuwere */
+}
+
+.footer_section_2 img {
+    width: 97px;
+    height: 55px;
+    background-color: white;
+    border-radius: 5px;
+}
